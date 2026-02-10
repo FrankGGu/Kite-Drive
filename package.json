@@ -1,20 +1,14 @@
 {
-  "name": "kite-pay",
+  "name": "kite-drive-demo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "private": true,
   "type": "commonjs",
+  "scripts": {
+    "local": "node scripts/local-dev.js"
+  },
   "dependencies": {
-    "cors": "^2.8.6",
     "dotenv": "^17.2.3",
     "ethers": "^6.16.0",
-    "express": "^5.2.1",
     "gokite-aa-sdk": "^1.0.14"
   }
 }
